@@ -2,7 +2,7 @@
     import Header from "$lib/Header.svelte"
 </script>
 
-<Header headingTitile="About us" />
+<Header headingTitle="About us" />
 <p>Lerem</p>
 
 <style>
