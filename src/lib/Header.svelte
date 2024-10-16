@@ -2,10 +2,21 @@
     export let headingTitle;
 </script>
     
-<header>
 
+<style>
+    .menu {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: lightgray;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+
+<header>
     <h1>{headingTitle}</h1>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
@@ -14,6 +25,3 @@
     </nav>
 </header>
 
-<style>
-
-</style>

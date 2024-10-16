@@ -2,9 +2,25 @@
     import Header from "$lib/Header.svelte"
 </script>
 
-<Header headingTitle="About us" />
+<Header headingTitle="This us" />
 <p>Lerem</p>
 
-<style>
+<body>
 
-</style>
+   <!--<script>
+         let color = "lightblue";
+      </script>
+      
+      <style>
+        .box {
+          background-color: lightgray;
+          padding: 0px;
+          border-radius: 10px;
+        }
+      </style>
+      
+      <div class="box">
+        This box has a light gray background.
+      </div>-->
+
+</body>
